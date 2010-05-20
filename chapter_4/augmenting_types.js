@@ -16,7 +16,8 @@ document.writeln((-10 / 3).integer()); //3
 document.writeln((-10 / 3)); //3
 
 String.method('trim', function() {
-   return this.replace(/^\s+|\s+$/g, '');
+   //return this.replace(/^\s+|\s+$/g, '');
+   return this.replace(' ', '');
 });
 
 document.writeln('"' + "   neat     ".trim() + '"');

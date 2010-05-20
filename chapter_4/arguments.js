@@ -41,3 +41,4 @@ var try_it = function () {
 try_it(); // TypeError: add needs numbers
 document.writeln(add(4,2)); //6
 document.writeln(sum(4, 8, 15, 16, 23, 42)); // 108
+

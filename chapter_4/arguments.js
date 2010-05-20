@@ -25,7 +25,7 @@ var add = function(a, b) {
         };
     }
     return a + b;
-}
+};
 
 // Make a try_it function that calls the new add
 // function incorrectly.
@@ -36,7 +36,8 @@ var try_it = function () {
     } catch (e) {
         document.writeln(e.name + ': ' + e.message);
     }
-}
+};
 
 try_it(); // TypeError: add needs numbers
 document.writeln(add(4,2)); //6
+document.writeln(sum(4, 8, 15, 16, 23, 42)); // 108

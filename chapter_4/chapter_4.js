@@ -45,6 +45,7 @@ document.writeln(sum);
 
 
 // Invoke double as a method.
+// document.writeln(myObject.getValue()); from the book does not work, please see below (page 29).
 
 myObject.double();
 document.writeln(myObject.value); // 6
